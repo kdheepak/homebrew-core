@@ -3,17 +3,17 @@ class Snakemake < Formula
 
   desc "Pythonic workflow system"
   homepage "https://snakemake.readthedocs.io/"
-  url "https://files.pythonhosted.org/packages/3f/44/2038730ccffcbf4c4c3de461a54af817eee4c3103c5448d483e876bb3eda/snakemake-6.11.1.tar.gz"
-  sha256 "fd99230d5e426dde38b9bc085f3796506185bb79a9c439b5300e662b2d424463"
+  url "https://files.pythonhosted.org/packages/c2/e4/53e1770291ecdb763bd61241c99c4774921cfb85a893be00cd1f4f2dad23/snakemake-6.12.1.tar.gz"
+  sha256 "6bc45e98c0cd90d8e696ff09ad87cddf815baf50bd75964ea01639c9699ca50d"
   license "MIT"
   head "https://github.com/snakemake/snakemake.git", branch: "main"
 
   bottle do
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "e178cbe2591b16fe893a475d3f80746177c5d76cf8753092f9ca5af8af921073"
-    sha256 cellar: :any_skip_relocation, monterey:      "4a51c29a7528090290c3a5a9ac36cf995c276b0c8a5377fa73d7fce5db135318"
-    sha256 cellar: :any_skip_relocation, big_sur:       "1b7783d1fffed787b5dc9f22ab0d95f982c242617dbed7ed33e7fd9f97defa9a"
-    sha256 cellar: :any_skip_relocation, catalina:      "b6b10c5eb95d59b012e6a729ea6170ed6e1e06aebf6915b2033828266b24547a"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "e3f73ec1100d5456b5ae3f142e592caf6dd55e0a60a055b092d3bdcac478551d"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "fd4647e1976254e1d4aee1ecb8bdfbe1c436f50ddbef93aca6f6ddb00d83b8d2"
+    sha256 cellar: :any_skip_relocation, monterey:      "df48fce81450e8f2a15f5a2c4f627bd560f9f39aa81456a296ff05518b4d5f03"
+    sha256 cellar: :any_skip_relocation, big_sur:       "2095d82d10f66e1a4b3615ee6de12356a6ab2bdd8ec542b118896725bf164006"
+    sha256 cellar: :any_skip_relocation, catalina:      "0dc983d04e10aa4a44ee01ec9f864fef748d5fcbad0e2a3e7c80edb94232ffb2"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "6c30e0dc4c6b3ea0b223ad9e070cb6d2cf2abf817dd62585c307a3076fbeb724"
   end
 
   depends_on "cbc"
